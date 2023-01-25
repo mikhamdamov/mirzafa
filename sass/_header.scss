@@ -1,0 +1,85 @@
+.conatiner {
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0b1d26 40.38%);
+  height: 1000px;
+  top: -800px;
+  z-index: 1;
+  position: relative;
+  color: #ffffff;
+  .child {
+    background: #0b1d26;
+    width: 100%;
+    height: 100vh;
+  }
+  .parent {
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    .ll {
+      position: absolute;
+      left: 150%;
+      top: -70%;
+    }
+    p {
+      margin-bottom: 27px;
+    }
+  }
+  h2,
+  .h2 {
+    margin-bottom: 27px;
+    margin-top: 27px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .ooo {
+    position: absolute;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+    color: #24343c;
+    top: 40%;
+    left: 15%;
+  }
+}
+.o {
+  position: absolute;
+  top: 120%;
+  left: 55%;
+}
+.li {
+  position: relative;
+  top: -80%;
+  left: 63%;
+  display: inline-block;
+}
+.oo {
+  position: absolute;
+  top: 110%;
+  left: 15%;
+}
+
+.card {
+  position: absolute;
+  top: 195%;
+  left: 60%;
+}
+.porshin {
+  position: absolute;
+  left: -130%;
+  top: 30%;
+}
+.car {
+  position: absolute;
+  top: 200%;
+  left: 20%;
+}
+
+@media (max-width: 760px) {
+  .ll {
+    position: absolute;
+    left: 0px;
+  }
+}

@@ -1,0 +1,25 @@
+nav{
+    height: 1900px;
+    background-image: url( /img/bg.png ) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    
+    .flex{
+        margin-top: 66px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+    
+}
+@media (max-width:760px) {
+    nav{
+        color: red;
+        height: 100vh;
+    }
+    
+}
